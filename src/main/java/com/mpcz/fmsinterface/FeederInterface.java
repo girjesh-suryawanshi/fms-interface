@@ -1,6 +1,9 @@
 package com.mpcz.fmsinterface;
 
 import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 public interface FeederInterface extends BeanInterface {
 
@@ -29,16 +32,16 @@ public interface FeederInterface extends BeanInterface {
 
     public void setCreatedBy(String createdBy);
 
-    public Timestamp getCreatedOn();
+    public Date getCreatedOn();
 
-    public void setCreatedOn(Timestamp createdOn);
+    public void setCreatedOn(Date createdOn);
 
     public String getUpdatedBy();
 
     public void setUpdatedBy(String updatedBy);
 
-    public Timestamp getUpdatedOn();
+    public Date getUpdatedOn();
 
-    public void setUpdatedOn(Timestamp updatedOn);
+    public void setUpdatedOn(Date updatedOn);
 
 }
