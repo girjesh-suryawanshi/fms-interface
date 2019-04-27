@@ -10,7 +10,7 @@ public interface FeederInterface extends BeanInterface {
    
 	public long getId();
 
-    public void setId(long fdrId);
+    public void setId(long id);
 
     public long getSubstationId();
 
