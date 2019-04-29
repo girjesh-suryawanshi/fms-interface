@@ -5,6 +5,7 @@ public interface CircleInterface extends BeanInterface {
 
     public long getId();
 
+
     public void setId(long id);
 
     public String getCode();
